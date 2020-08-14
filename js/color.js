@@ -110,23 +110,39 @@ $('.vidjet__position-item').not('.active').click(function () {
     $(this).addClass('active').siblings().removeClass('active');
 });
 newLogo.prependTo('header');
-logoLeft.on('click', function () {
-    newLogo.prependTo('header');
-    $('.desktop-nav').css({
-        'width': '770px',
-    })
+logoLeft.on('click', function leftPos() {
+
+    if ($(window).width() < '1140') {
+        return false;
+    } else {
+        newLogo.prependTo('header');
+        $('.desktop-nav').css({
+            'width': '770px',
+        })
+    }
+
 });
-logoCenter.on('click', function () {
-    newLogo.insertAfter($('.desktop-nav').find($('a').eq(3)));
-    $('.desktop-nav').css({
-        'width': '1000px',
-    })
+logoCenter.on('click', function centerPos() {
+
+    if ($(window).width() < '1140') {
+        return false;
+    } else {
+        newLogo.insertAfter($('.desktop-nav').find($('a').eq(3)));
+        $('.desktop-nav').css({
+            'width': '1000px',
+        })
+    }
 });
-logoRight.on('click', function () {
-    newLogo.insertAfter('.desktop-nav');
-    $('.desktop-nav').css({
-        'width': '770px',
-    })
+logoRight.on('click', function rightPos() {
+
+    if ($(window).width() < '1140') {
+        return false;
+    } else {
+        newLogo.insertAfter('.desktop-nav');
+        $('.desktop-nav').css({
+            'width': '770px',
+        })
+    }
 });
 
 let posStandart = $('.vidjet__position-standart');
@@ -144,21 +160,10 @@ let vidjet = $('.vidjet');
 
 arrow.on('click', function () {
     if (arrow.hasClass('show')) {
-        arrow.css({
-            'transform': 'rotate(180deg)',
-        });
-        arrow.addClass('show')
-        vidjet.css({
-            'right': '-491px',
-        });
         arrow.removeClass('show');
+        vidjet.addClass('posVidjet')
     } else {
-        arrow.css({
-            'transform': 'rotate(0deg)',
-        })
         arrow.addClass('show')
-        vidjet.css({
-            'right': '0',
-        })
+        vidjet.removeClass('posVidjet')
     }
 });
