@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>MultiLanding</title>
+    <meta http-equiv="Content-Type" content="text/html" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="fonts/font.css">
+    <link rel="stylesheet" href="css/index.css?v=9">
+    <link rel="stylesheet" href="css/media.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <div id="style-color" data-pos="" class="">
+        <header class="header">
+            <div class="container">
+                <div class="header__wrapper">
+                    <div class="logo">
+                        <img src="illustration/LOGO.png" alt="logo">
+                    </div>
+                    <div class="header__right">
+                        <div class="header__back">
+                            <a href="index.html">Вернуться
+                                на главную</a>
+                        </div>
+                        <div class="header__mobil-menu">
+                            <img src="illustration/menu.svg" alt="">
+                        </div>
+                        <div class="header__lang">
+                            <span data-lang="ru" class="header__lang-item active">Рус</span>
+                            <span data-lang="ua" class="header__lang-item">Укр</span>
+                            <span data-lang="en" class="header__lang-item">Анг</span>
+                            <svg width="6" height="3" viewBox="0 0 6 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M3.0334 3.01135C3.16673 3.01135 3.26673 2.95134 3.36673 2.89134L5.8334 0.821334C6.0334 0.641334 6.06673 0.371349 5.90006 0.161349C5.70006 -0.0186511 5.40006 -0.0486548 5.16673 0.101345C5.16673 0.101345 5.16673 0.101338 5.1334 0.131338L3.00007 1.90134L0.866732 0.131338C0.666732 -0.0486621 0.333398 -0.0486621 0.133398 0.131338C-0.0666016 0.311338 -0.0666016 0.611341 0.133398 0.791341C0.133398 0.791341 0.133398 0.791334 0.166732 0.821334L2.66673 2.89134C2.76673 2.95134 2.90007 3.01135 3.0334 3.01135Z"
+                                    fill="#2F2F2F" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__mobile">
+                    <a href="">Условия кредита</a>
+                    <a href="">Как получить</a>
+                    <a href="">Почему наш сервис</a>
+                    <a href="">Популярные вопросы</a>
+                    <a href="">Быстро и просто</a>
+                    <a href="">Контакты</a>
+                    <a href="" class="mob-status">Проверить статус заявки</a>
+                </div>
+            </div>
+        </header>
+        <section class="account_adress old">
+            <div class="container">
+                <div class="account__wrapper">
+                    <div class="account__wrapper-tab">
+                        <div class="account__tab-name"><span>Самойлов</span>
+                            Валентин Александрович</div>
+                        <div class="account__tab-id">id 12463</div>
+                        <div class="account__wrapper-inner">
+                            <div class="account__inner-item "><a href="#">Личные данные</a></div>
+                            <div class="account__inner-item "><a href="#">Данные про доходы
+                                    и платежи</a></div>
+                            <div class="account__inner-item active"><a href="#">Адреса</a></div>
+                            <div class="account__inner-item"><a href="#">Сменить пароль</a></div>
+                            <div class="account__inner-item"><a href="#">Выйти</a></div>
+                        </div>
+                    </div>
+                    <div class="account__wrapper-info">
+                        <div class="account__info-item">
+                            <form action="#">
+                                <div class="account__info-title">Адрес проживания<i class="far fa-edit"></i></div>
+                                <div class="account__info-wrapper">
+                                    <div class="account__info-left">
+                                        <div class="account__info-input">
+                                            <label for="country">Страна*</label>
+                                            <input type="text" name="country">
+                                        </div>
+                                        <div class="account__info-input">
+                                            <label for="index">Индекс*</label>
+                                            <input type="text" name="index">
+                                        </div>
+                                        <div class="account__info-input select">
+                                            <label class="form__title" for="region">Область*</label>
+                                            <select name="region">
+                                                <option value="" hidden disabled selected>Выберите из списка</option>
+                                                <option class="region-option" value="1">Московская область</option>
+                                                <option class="region-option" value="2">Амурская область</option>
+                                                <option class="region-option" value="3">Архангельская область</option>
+                                            </select>
+                                            <div class="select_arrow">
+                                            </div>
+                                        </div>
+                                        <div class="account__info-input select">
+                                            <label class="form__title" for="district">Район*</label>
+                                            <select name="district">
+                                                <option value="" hidden disabled selected>Выберите из списка</option>
+                                                <option class="district-option" value="1">Московская область</option>
+                                                <option class="district-option" value="2">Амурская область</option>
+                                                <option class="district-option" value="3">Архангельская область</option>
+                                                <option class="district-option" value="4">Астраханская область</option>
+                                            </select>
+                                            <div class="select_arrow">
+                                            </div>
+                                        </div>
+                                        <div class="account__info-input select">
+                                            <label class="form__title" for="district">Тип населенного пункта*</label>
+                                            <select name="district">
+                                                <option value="" hidden disabled selected>Выберите из списка</option>
+                                                <option class="district-option" value="1">Московская область
+                                                </option>
+                                                <option class="district-option" value="2">Амурская область</option>
+                                                <option class="district-option" value="3">Архангельская область
+                                                </option>
+                                            </select>
+                                            <div class="select_arrow">
+                                            </div>
+                                        </div>
+                                        <div class="account__info-input select">
+                                            <label class="form__title" for="district">Название населенного
+                                                пункта*</label>
+                                            <select name="district">
+                                                <option value="" hidden disabled selected>Выберите из списка
+                                                </option>
+                                                <option class="district-option" value="1">Московская область
+                                                </option>
+                                                <option class="district-option" value="2">Амурская область</option>
+                                                <option class="district-option" value="3">Архангельская область
+                                                </option>
+                                                <option class="district-option" value="4">Астраханская область
+                                                </option>
+                                                <option class="district-option" value="5">Белгородская область
+                                                </option>
+                                            </select>
+                                            <div class="select_arrow">
+                                            </div>
+                                        </div>
+                                        <div class="account__info-input select">
+                                            <label class="form__title" for="district">Тип улицы*</label>
+                                            <select name="district">
+                                                <option value="" hidden disabled selected>Выберите из списка</option>
+                                                <option class="district-option" value="1">Московская область</option>
+                                                <option class="district-option" value="2">Амурская область</option>
+                                                <option class="district-option" value="3">Архангельская область</option>
+                                            </select>
+                                            <div class="select_arrow">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="account__info-right">
+                                        <div class="account__info-input">
+                                            <label class="form__title" for="street">Улица*</label>
+                                            <input type="text" name="street">
+                                        </div>
+                                        <div class="account__info-input">
+                                            <label class="form__title" for="home">Дом*</label>
+                                            <input type="text" name="home">
+                                        </div>
+                                        <div class="account__info-input">
+                                            <label class="form__title" for="corps">Корпус*</label>
+                                            <input type="text" name="corps">
+                                        </div>
+                                        <div class="account__info-input">
+                                            <label class="form__title" for="flat">Квартира*</label>
+                                            <input type="text" name="flat">
+                                        </div>
+                                        <div class="account__info-input select">
+                                            <label class="form__title" for="term">Срок проживания*</label>
+                                            <select name="term">
+                                                <option value="" hidden disabled selected>Выберите из списка</option>
+                                                <option class="district-option" value="1">Московская область</option>
+                                                <option class="district-option" value="2">Амурская область</option>
+                                                <option class="district-option" value="3">Архангельская область</option>
+                                            </select>
+                                            <div class="select_arrow">
+                                            </div>
+                                        </div>
+                                        <div class="account__info-input select">
+                                            <label class="form__title" for="term">Форма собственности*</label>
+                                            <select name="term">
+                                                <option value="" hidden disabled selected>Выберите из списка</option>
+                                                <option class="district-option" value="1">Московская область</option>
+                                                <option class="district-option" value="2">Амурская область</option>
+                                                <option class="district-option" value="3">Архангельская область</option>
+                                            </select>
+                                            <div class="select_arrow">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="account__info-btn">
+                                    <button type="submit" class="btn">Сохранить</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="account__info-item">
+                            <form action="#">
+                                <div class="account__info-title">Адрес регистрации<i class="far fa-edit"></i></div>
+                                <div class="account__info-wrapper">
+                                    <div class="account__info-description">
+                                        Совпадает с адресом проживания
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="prefooter">
+            <div class="content">
+                <div class="header-prefooter">Мы на связи <br> с нашими клиентами</div>
+                <div class="contact-prefooter">
+                    <span>info@gmail.com</span>
+                    <span>+380 44 123 45 67</span>
+                </div>
+                <div class="adress-prefooter">
+                    <span>60300, г. Киев, ул. Петровского, 58</span>
+                    <div class="social">
+                        <img src="svg/telegram.svg" alt="">
+                        <img src="svg/viber.svg" alt="">
+                        <img src="svg/whatsapp.svg" alt="">
+                    </div>
+                </div>
+                <div class="powered">Powered by TseСore</div>
+            </div>
+        </section>
+        <footer>
+            <div class="content">
+                <div class="footer-header">
+                    <div class="logo">
+                        LOGO
+                    </div>
+                    <nav>
+                        <a href="">Условия кредита</a>
+                        <a href="">Как получить</a>
+                        <a href="">Почему наш сервис</a>
+                        <a href="">Популярные вопросы</a>
+                        <a href="">Быстро и просто</a>
+                        <a href="">Контакты</a>
+                        <a href="">Проверить статус заявки</a>
+                    </nav>
+                    <div class="footer-mobile-nav">
+                        <div class="mobile-nav-left">
+                            <a href="">Условия кредита</a>
+                            <a href="">Как получить</a>
+                            <a href="">Почему наш сервис</a>
+                            <a href="">Популярные вопросы</a>
+                        </div>
+                        <div class="mobile-nav-right">
+                            <a href="">Быстро и просто</a>
+                            <a href="">Контакты</a>
+                            <a href="">Проверить статус заявки</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="line-footer"></div>
+                <div class="about">
+                    <div class="item-about">
+                        <div class="header-about"><span> Узнайте о нас больше</span>
+                            <svg width="6" height="3" viewBox="0 0 6 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M2.9666 -0.0111041C2.83327 -0.0111041 2.73327 0.0489032 2.63327 0.108903L0.166602 2.17891C-0.0333977 2.35891 -0.0667315 2.6289 0.0999351 2.8389C0.299935 3.0189 0.599935 3.0489 0.833269 2.8989C0.833269 2.8989 0.833269 2.89891 0.866602 2.86891L2.99993 1.0989L5.13327 2.86891C5.33327 3.04891 5.6666 3.04891 5.8666 2.86891C6.0666 2.68891 6.0666 2.3889 5.8666 2.2089C5.8666 2.2089 5.8666 2.20891 5.83327 2.17891L3.33327 0.108903C3.23327 0.0489032 3.09993 -0.0111041 2.9666 -0.0111041Z"
+                                    fill="#ffffff" />
+                            </svg>
+                        </div>
+                        <div class="list-about">
+                            <a href="">Правовая информация</a>
+                            <a href="">Договор займа</a>
+                            <a href="">Финансовая отчётность</a>
+                            <a href="">Политика конфиденциальности</a>
+                        </div>
+                    </div>
+                    <div class="item-about">
+                        <div class="header-about"><span> Узнайте о нас больше</span>
+                            <svg width="6" height="3" viewBox="0 0 6 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M2.9666 -0.0111041C2.83327 -0.0111041 2.73327 0.0489032 2.63327 0.108903L0.166602 2.17891C-0.0333977 2.35891 -0.0667315 2.6289 0.0999351 2.8389C0.299935 3.0189 0.599935 3.0489 0.833269 2.8989C0.833269 2.8989 0.833269 2.89891 0.866602 2.86891L2.99993 1.0989L5.13327 2.86891C5.33327 3.04891 5.6666 3.04891 5.8666 2.86891C6.0666 2.68891 6.0666 2.3889 5.8666 2.2089C5.8666 2.2089 5.8666 2.20891 5.83327 2.17891L3.33327 0.108903C3.23327 0.0489032 3.09993 -0.0111041 2.9666 -0.0111041Z"
+                                    fill="#ffffff" />
+                            </svg>
+                        </div>
+                        <div class="list-about">
+                            <a href="">Правовая информация</a>
+                            <a href="">Договор займа</a>
+                            <a href="">Финансовая отчётность</a>
+                            <a href="">Политика конфиденциальности</a>
+                        </div>
+                    </div>
+                    <div class="item-about">
+                        <div class="header-about"><span> Узнайте о нас больше</span>
+                            <svg width="6" height="3" viewBox="0 0 6 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M2.9666 -0.0111041C2.83327 -0.0111041 2.73327 0.0489032 2.63327 0.108903L0.166602 2.17891C-0.0333977 2.35891 -0.0667315 2.6289 0.0999351 2.8389C0.299935 3.0189 0.599935 3.0489 0.833269 2.8989C0.833269 2.8989 0.833269 2.89891 0.866602 2.86891L2.99993 1.0989L5.13327 2.86891C5.33327 3.04891 5.6666 3.04891 5.8666 2.86891C6.0666 2.68891 6.0666 2.3889 5.8666 2.2089C5.8666 2.2089 5.8666 2.20891 5.83327 2.17891L3.33327 0.108903C3.23327 0.0489032 3.09993 -0.0111041 2.9666 -0.0111041Z"
+                                    fill="#ffffff" />
+                            </svg>
+                        </div>
+                        <div class="list-about">
+                            <a href="">Правовая информация</a>
+                            <a href="">Договор займа</a>
+                            <a href="">Финансовая отчётность</a>
+                            <a href="">Политика конфиденциальности</a>
+                        </div>
+                    </div>
+                    <div class="item-about">
+                        <div class="header-about"><span> Узнайте о нас больше</span>
+                            <svg width="6" height="3" viewBox="0 0 6 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M2.9666 -0.0111041C2.83327 -0.0111041 2.73327 0.0489032 2.63327 0.108903L0.166602 2.17891C-0.0333977 2.35891 -0.0667315 2.6289 0.0999351 2.8389C0.299935 3.0189 0.599935 3.0489 0.833269 2.8989C0.833269 2.8989 0.833269 2.89891 0.866602 2.86891L2.99993 1.0989L5.13327 2.86891C5.33327 3.04891 5.6666 3.04891 5.8666 2.86891C6.0666 2.68891 6.0666 2.3889 5.8666 2.2089C5.8666 2.2089 5.8666 2.20891 5.83327 2.17891L3.33327 0.108903C3.23327 0.0489032 3.09993 -0.0111041 2.9666 -0.0111041Z"
+                                    fill="#ffffff" />
+                            </svg>
+                        </div>
+                        <div class="list-about">
+                            <a href="">Правовая информация</a>
+                            <a href="">Договор займа</a>
+                            <a href="">Финансовая отчётность</a>
+                            <a href="">Политика конфиденциальности</a>
+                        </div>
+                    </div>
+                    <div class="item-about">
+                        <div class="header-about"><span> Узнайте о нас больше</span>
+                            <svg width="6" height="3" viewBox="0 0 6 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M2.9666 -0.0111041C2.83327 -0.0111041 2.73327 0.0489032 2.63327 0.108903L0.166602 2.17891C-0.0333977 2.35891 -0.0667315 2.6289 0.0999351 2.8389C0.299935 3.0189 0.599935 3.0489 0.833269 2.8989C0.833269 2.8989 0.833269 2.89891 0.866602 2.86891L2.99993 1.0989L5.13327 2.86891C5.33327 3.04891 5.6666 3.04891 5.8666 2.86891C6.0666 2.68891 6.0666 2.3889 5.8666 2.2089C5.8666 2.2089 5.8666 2.20891 5.83327 2.17891L3.33327 0.108903C3.23327 0.0489032 3.09993 -0.0111041 2.9666 -0.0111041Z"
+                                    fill="#ffffff" />
+                            </svg>
+                        </div>
+                        <div class="list-about">
+                            <a href="">Правовая информация</a>
+                            <a href="">Договор займа</a>
+                            <a href="">Финансовая отчётность</a>
+                            <a href="">Политика конфиденциальности</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <section class="post-footer">Поддержка FinЦех</section>
+        <div class="calendar__icon">
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M33.1875 13.5H29.25V2.8125C29.25 2.36495 29.0722 1.93572 28.7557 1.61926C28.4393 1.30279 28.0101 1.125 27.5625 1.125H2.8125C2.36495 1.125 1.93572 1.30279 1.61926 1.61926C1.30279 1.93572 1.125 2.36495 1.125 2.8125V27.5625C1.125 28.0101 1.30279 28.4393 1.61926 28.7557C1.93572 29.0722 2.36495 29.25 2.8125 29.25H9V33.1875C9 33.6351 9.17779 34.0643 9.49426 34.3807C9.81072 34.6972 10.2399 34.875 10.6875 34.875H33.1875C33.6351 34.875 34.0643 34.6972 34.3807 34.3807C34.6972 34.0643 34.875 33.6351 34.875 33.1875V15.1875C34.875 14.7399 34.6972 14.3107 34.3807 13.9943C34.0643 13.6778 33.6351 13.5 33.1875 13.5ZM33.1875 14.625C33.3367 14.625 33.4798 14.6843 33.5852 14.7898C33.6907 14.8952 33.75 15.0383 33.75 15.1875V18H10.125V15.1875C10.125 15.0383 10.1843 14.8952 10.2898 14.7898C10.3952 14.6843 10.5383 14.625 10.6875 14.625H15.1875V15.75H16.3125V14.625H21.9375V15.75H23.0625V14.625H28.125V15.75H29.25V14.625H33.1875ZM2.8125 2.25H27.5625C27.7117 2.25 27.8548 2.30926 27.9602 2.41475C28.0657 2.52024 28.125 2.66332 28.125 2.8125V5.625H2.25V2.8125C2.25 2.66332 2.30926 2.52024 2.41475 2.41475C2.52024 2.30926 2.66332 2.25 2.8125 2.25ZM2.8125 28.125C2.66332 28.125 2.52024 28.0657 2.41475 27.9602C2.30926 27.8548 2.25 27.7117 2.25 27.5625V6.75H28.125V13.5H23.0625V12.375H21.9375V13.5H16.3125V12.375H15.1875V13.5H10.6875C10.2399 13.5 9.81072 13.6778 9.49426 13.9943C9.17779 14.3107 9 14.7399 9 15.1875V28.125H2.8125ZM33.1875 33.75H10.6875C10.5383 33.75 10.3952 33.6907 10.2898 33.5852C10.1843 33.4798 10.125 33.3367 10.125 33.1875V19.125H33.75V33.1875C33.75 33.3367 33.6907 33.4798 33.5852 33.5852C33.4798 33.6907 33.3367 33.75 33.1875 33.75Z"
+                    fill="url(#paint0_linear)" />
+                <path
+                    d="M14.0625 20.25H11.8125C11.6633 20.25 11.5202 20.3093 11.4148 20.4148C11.3093 20.5202 11.25 20.6633 11.25 20.8125V23.0625C11.25 23.2117 11.3093 23.3548 11.4148 23.4602C11.5202 23.5657 11.6633 23.625 11.8125 23.625H14.0625C14.2117 23.625 14.3548 23.5657 14.4602 23.4602C14.5657 23.3548 14.625 23.2117 14.625 23.0625V20.8125C14.625 20.6633 14.5657 20.5202 14.4602 20.4148C14.3548 20.3093 14.2117 20.25 14.0625 20.25ZM13.5 22.5H12.375V21.375H13.5V22.5Z"
+                    fill="url(#paint1_linear)" />
+                <path
+                    d="M14.0625 24.75H11.8125C11.6633 24.75 11.5202 24.8093 11.4148 24.9148C11.3093 25.0202 11.25 25.1633 11.25 25.3125V27.5625C11.25 27.7117 11.3093 27.8548 11.4148 27.9602C11.5202 28.0657 11.6633 28.125 11.8125 28.125H14.0625C14.2117 28.125 14.3548 28.0657 14.4602 27.9602C14.5657 27.8548 14.625 27.7117 14.625 27.5625V25.3125C14.625 25.1633 14.5657 25.0202 14.4602 24.9148C14.3548 24.8093 14.2117 24.75 14.0625 24.75ZM13.5 27H12.375V25.875H13.5V27Z"
+                    fill="url(#paint2_linear)" />
+                <path
+                    d="M14.0625 29.25H11.8125C11.6633 29.25 11.5202 29.3093 11.4148 29.4148C11.3093 29.5202 11.25 29.6633 11.25 29.8125V32.0625C11.25 32.2117 11.3093 32.3548 11.4148 32.4602C11.5202 32.5657 11.6633 32.625 11.8125 32.625H14.0625C14.2117 32.625 14.3548 32.5657 14.4602 32.4602C14.5657 32.3548 14.625 32.2117 14.625 32.0625V29.8125C14.625 29.6633 14.5657 29.5202 14.4602 29.4148C14.3548 29.3093 14.2117 29.25 14.0625 29.25ZM13.5 31.5H12.375V30.375H13.5V31.5Z"
+                    fill="url(#paint3_linear)" />
+                <path
+                    d="M18.5625 20.25H16.3125C16.1633 20.25 16.0202 20.3093 15.9148 20.4148C15.8093 20.5202 15.75 20.6633 15.75 20.8125V23.0625C15.75 23.2117 15.8093 23.3548 15.9148 23.4602C16.0202 23.5657 16.1633 23.625 16.3125 23.625H18.5625C18.7117 23.625 18.8548 23.5657 18.9602 23.4602C19.0657 23.3548 19.125 23.2117 19.125 23.0625V20.8125C19.125 20.6633 19.0657 20.5202 18.9602 20.4148C18.8548 20.3093 18.7117 20.25 18.5625 20.25ZM18 22.5H16.875V21.375H18V22.5Z"
+                    fill="url(#paint4_linear)" />
+                <path
+                    d="M18.5625 24.75H16.3125C16.1633 24.75 16.0202 24.8093 15.9148 24.9148C15.8093 25.0202 15.75 25.1633 15.75 25.3125V27.5625C15.75 27.7117 15.8093 27.8548 15.9148 27.9602C16.0202 28.0657 16.1633 28.125 16.3125 28.125H18.5625C18.7117 28.125 18.8548 28.0657 18.9602 27.9602C19.0657 27.8548 19.125 27.7117 19.125 27.5625V25.3125C19.125 25.1633 19.0657 25.0202 18.9602 24.9148C18.8548 24.8093 18.7117 24.75 18.5625 24.75ZM18 27H16.875V25.875H18V27Z"
+                    fill="url(#paint5_linear)" />
+                <path
+                    d="M18.5625 29.25H16.3125C16.1633 29.25 16.0202 29.3093 15.9148 29.4148C15.8093 29.5202 15.75 29.6633 15.75 29.8125V32.0625C15.75 32.2117 15.8093 32.3548 15.9148 32.4602C16.0202 32.5657 16.1633 32.625 16.3125 32.625H18.5625C18.7117 32.625 18.8548 32.5657 18.9602 32.4602C19.0657 32.3548 19.125 32.2117 19.125 32.0625V29.8125C19.125 29.6633 19.0657 29.5202 18.9602 29.4148C18.8548 29.3093 18.7117 29.25 18.5625 29.25ZM18 31.5H16.875V30.375H18V31.5Z"
+                    fill="url(#paint6_linear)" />
+                <path
+                    d="M23.0625 20.25H20.8125C20.6633 20.25 20.5202 20.3093 20.4148 20.4148C20.3093 20.5202 20.25 20.6633 20.25 20.8125V23.0625C20.25 23.2117 20.3093 23.3548 20.4148 23.4602C20.5202 23.5657 20.6633 23.625 20.8125 23.625H23.0625C23.2117 23.625 23.3548 23.5657 23.4602 23.4602C23.5657 23.3548 23.625 23.2117 23.625 23.0625V20.8125C23.625 20.6633 23.5657 20.5202 23.4602 20.4148C23.3548 20.3093 23.2117 20.25 23.0625 20.25ZM22.5 22.5H21.375V21.375H22.5V22.5Z"
+                    fill="url(#paint7_linear)" />
+                <path
+                    d="M23.0625 24.75H20.8125C20.6633 24.75 20.5202 24.8093 20.4148 24.9148C20.3093 25.0202 20.25 25.1633 20.25 25.3125V27.5625C20.25 27.7117 20.3093 27.8548 20.4148 27.9602C20.5202 28.0657 20.6633 28.125 20.8125 28.125H23.0625C23.2117 28.125 23.3548 28.0657 23.4602 27.9602C23.5657 27.8548 23.625 27.7117 23.625 27.5625V25.3125C23.625 25.1633 23.5657 25.0202 23.4602 24.9148C23.3548 24.8093 23.2117 24.75 23.0625 24.75ZM22.5 27H21.375V25.875H22.5V27Z"
+                    fill="url(#paint8_linear)" />
+                <path
+                    d="M23.0625 29.25H20.8125C20.6633 29.25 20.5202 29.3093 20.4148 29.4148C20.3093 29.5202 20.25 29.6633 20.25 29.8125V32.0625C20.25 32.2117 20.3093 32.3548 20.4148 32.4602C20.5202 32.5657 20.6633 32.625 20.8125 32.625H23.0625C23.2117 32.625 23.3548 32.5657 23.4602 32.4602C23.5657 32.3548 23.625 32.2117 23.625 32.0625V29.8125C23.625 29.6633 23.5657 29.5202 23.4602 29.4148C23.3548 29.3093 23.2117 29.25 23.0625 29.25ZM22.5 31.5H21.375V30.375H22.5V31.5Z"
+                    fill="url(#paint9_linear)" />
+                <path
+                    d="M27.5625 20.25H25.3125C25.1633 20.25 25.0202 20.3093 24.9148 20.4148C24.8093 20.5202 24.75 20.6633 24.75 20.8125V23.0625C24.75 23.2117 24.8093 23.3548 24.9148 23.4602C25.0202 23.5657 25.1633 23.625 25.3125 23.625H27.5625C27.7117 23.625 27.8548 23.5657 27.9602 23.4602C28.0657 23.3548 28.125 23.2117 28.125 23.0625V20.8125C28.125 20.6633 28.0657 20.5202 27.9602 20.4148C27.8548 20.3093 27.7117 20.25 27.5625 20.25ZM27 22.5H25.875V21.375H27V22.5Z"
+                    fill="url(#paint10_linear)" />
+                <path
+                    d="M27.5625 24.75H25.3125C25.1633 24.75 25.0202 24.8093 24.9148 24.9148C24.8093 25.0202 24.75 25.1633 24.75 25.3125V27.5625C24.75 27.7117 24.8093 27.8548 24.9148 27.9602C25.0202 28.0657 25.1633 28.125 25.3125 28.125H27.5625C27.7117 28.125 27.8548 28.0657 27.9602 27.9602C28.0657 27.8548 28.125 27.7117 28.125 27.5625V25.3125C28.125 25.1633 28.0657 25.0202 27.9602 24.9148C27.8548 24.8093 27.7117 24.75 27.5625 24.75ZM27 27H25.875V25.875H27V27Z"
+                    fill="url(#paint11_linear)" />
+                <path
+                    d="M27.5625 29.25H25.3125C25.1633 29.25 25.0202 29.3093 24.9148 29.4148C24.8093 29.5202 24.75 29.6633 24.75 29.8125V32.0625C24.75 32.2117 24.8093 32.3548 24.9148 32.4602C25.0202 32.5657 25.1633 32.625 25.3125 32.625H27.5625C27.7117 32.625 27.8548 32.5657 27.9602 32.4602C28.0657 32.3548 28.125 32.2117 28.125 32.0625V29.8125C28.125 29.6633 28.0657 29.5202 27.9602 29.4148C27.8548 29.3093 27.7117 29.25 27.5625 29.25ZM27 31.5H25.875V30.375H27V31.5Z"
+                    fill="url(#paint12_linear)" />
+                <path
+                    d="M32.0625 20.25H29.8125C29.6633 20.25 29.5202 20.3093 29.4148 20.4148C29.3093 20.5202 29.25 20.6633 29.25 20.8125V23.0625C29.25 23.2117 29.3093 23.3548 29.4148 23.4602C29.5202 23.5657 29.6633 23.625 29.8125 23.625H32.0625C32.2117 23.625 32.3548 23.5657 32.4602 23.4602C32.5657 23.3548 32.625 23.2117 32.625 23.0625V20.8125C32.625 20.6633 32.5657 20.5202 32.4602 20.4148C32.3548 20.3093 32.2117 20.25 32.0625 20.25ZM31.5 22.5H30.375V21.375H31.5V22.5Z"
+                    fill="url(#paint13_linear)" />
+                <path
+                    d="M32.0625 24.75H29.8125C29.6633 24.75 29.5202 24.8093 29.4148 24.9148C29.3093 25.0202 29.25 25.1633 29.25 25.3125V27.5625C29.25 27.7117 29.3093 27.8548 29.4148 27.9602C29.5202 28.0657 29.6633 28.125 29.8125 28.125H32.0625C32.2117 28.125 32.3548 28.0657 32.4602 27.9602C32.5657 27.8548 32.625 27.7117 32.625 27.5625V25.3125C32.625 25.1633 32.5657 25.0202 32.4602 24.9148C32.3548 24.8093 32.2117 24.75 32.0625 24.75ZM31.5 27H30.375V25.875H31.5V27Z"
+                    fill="url(#paint14_linear)" />
+                <path
+                    d="M32.0625 29.25H29.8125C29.6633 29.25 29.5202 29.3093 29.4148 29.4148C29.3093 29.5202 29.25 29.6633 29.25 29.8125V32.0625C29.25 32.2117 29.3093 32.3548 29.4148 32.4602C29.5202 32.5657 29.6633 32.625 29.8125 32.625H32.0625C32.2117 32.625 32.3548 32.5657 32.4602 32.4602C32.5657 32.3548 32.625 32.2117 32.625 32.0625V29.8125C32.625 29.6633 32.5657 29.5202 32.4602 29.4148C32.3548 29.3093 32.2117 29.25 32.0625 29.25ZM31.5 31.5H30.375V30.375H31.5V31.5Z"
+                    fill="url(#paint15_linear)" />
+                <path d="M3.375 3.375H4.5V4.5H3.375V3.375Z" fill="url(#paint16_linear)" />
+                <path d="M5.625 3.375H6.75V4.5H5.625V3.375Z" fill="url(#paint17_linear)" />
+                <path d="M7.875 3.375H9V4.5H7.875V3.375Z" fill="url(#paint18_linear)" />
+                <path d="M25.875 3.375H27V4.5H25.875V3.375Z" fill="url(#paint19_linear)" />
+                <defs>
+                    <linearGradient id="paint0_linear" x1="25.6179" y1="-24.7148" x2="-12.5422" y2="-12.1141"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FF8F00" />
+                        <stop offset="0.0001" stop-color="#FF8F00" />
+                        <stop offset="1" stop-color="#FFCA28" />
+                    </linearGradient>
+                    <linearGradient id="paint1_linear" x1="13.6993" y1="17.666" x2="9.88328" y2="18.9261"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FF8F00" />
+                        <stop offset="0.0001" stop-color="#FF8F00" />
+                        <stop offset="1" stop-color="#FFCA28" />
+                    </linearGradient>
+                    <linearGradient id="paint2_linear" x1="13.6993" y1="22.166" x2="9.88328" y2="23.4261"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FF8F00" />
+                        <stop offset="0.0001" stop-color="#FF8F00" />
+                        <stop offset="1" stop-color="#FFCA28" />
+                    </linearGradient>
+                    <linearGradient id="paint3_linear" x1="13.6993" y1="26.666" x2="9.88328" y2="27.9261"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FF8F00" />
+                        <stop offset="0.0001" stop-color="#FF8F00" />
+                        <stop offset="1" stop-color="#FFCA28" />
+                    </linearGradient>
+                    <linearGradient id="paint4_linear" x1="18.1993" y1="17.666" x2="14.3833" y2="18.9261"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FF8F00" />
+                        <stop offset="0.0001" stop-color="#FF8F00" />
+                        <stop offset="1" stop-color="#FFCA28" />
+                    </linearGradient>
+                    <linearGradient id="paint5_linear" x1="18.1993" y1="22.166" x2="14.3833" y2="23.4261"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FF8F00" />
+                        <stop offset="0.0001" stop-color="#FF8F00" />
+                        <stop offset="1" stop-color="#FFCA28" />
+                    </linearGradient>
+                    <linearGradient id="paint6_linear" x1="18.1993" y1="26.666" x2="14.3833" y2="27.9261"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FF8F00" />
+                        <stop offset="0.0001" stop-color="#FF8F00" />
+                        <stop offset="1" stop-color="#FFCA28" />
+                    </linearGradient>
+                    <linearGradient id="paint7_linear" x1="22.6993" y1="17.666" x2="18.8833" y2="18.9261"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FF8F00" />
+                        <stop offset="0.0001" stop-color="#FF8F00" />
+                        <stop offset="1" stop-color="#FFCA28" />
+                    </linearGradient>
+                    <linearGradient id="paint8_linear" x1="22.6993" y1="22.166" x2="18.8833" y2="23.4261"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FF8F00" />
+                        <stop offset="0.0001" stop-color="#FF8F00" />
+                        <stop offset="1" stop-color="#FFCA28" />
+                    </linearGradient>
+                    <linearGradient id="paint9_linear" x1="22.6993" y1="26.666" x2="18.8833" y2="27.9261"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FF8F00" />
+                        <stop offset="0.0001" stop-color="#FF8F00" />
+                        <stop offset="1" stop-color="#FFCA28" />
+                    </linearGradient>
+                    <linearGradient id="paint10_linear" x1="27.1993" y1="17.666" x2="23.3833" y2="18.9261"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FF8F00" />
+                        <stop offset="0.0001" stop-color="#FF8F00" />
+                        <stop offset="1" stop-color="#FFCA28" />
+                    </linearGradient>
+                    <linearGradient id="paint11_linear" x1="27.1993" y1="22.166" x2="23.3833" y2="23.4261"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FF8F00" />
+                        <stop offset="0.0001" stop-color="#FF8F00" />
+                        <stop offset="1" stop-color="#FFCA28" />
+                    </linearGradient>
+                    <linearGradient id="paint12_linear" x1="27.1993" y1="26.666" x2="23.3833" y2="27.9261"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FF8F00" />
+                        <stop offset="0.0001" stop-color="#FF8F00" />
+                        <stop offset="1" stop-color="#FFCA28" />
+                    </linearGradient>
+                    <linearGradient id="paint13_linear" x1="31.6993" y1="17.666" x2="27.8833" y2="18.9261"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FF8F00" />
+                        <stop offset="0.0001" stop-color="#FF8F00" />
+                        <stop offset="1" stop-color="#FFCA28" />
+                    </linearGradient>
+                    <linearGradient id="paint14_linear" x1="31.6993" y1="22.166" x2="27.8833" y2="23.4261"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FF8F00" />
+                        <stop offset="0.0001" stop-color="#FF8F00" />
+                        <stop offset="1" stop-color="#FFCA28" />
+                    </linearGradient>
+                    <linearGradient id="paint15_linear" x1="31.6993" y1="26.666" x2="27.8833" y2="27.9261"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FF8F00" />
+                        <stop offset="0.0001" stop-color="#FF8F00" />
+                        <stop offset="1" stop-color="#FFCA28" />
+                    </linearGradient>
+                    <linearGradient id="paint16_linear" x1="4.19143" y1="2.51367" x2="2.91943" y2="2.9337"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FF8F00" />
+                        <stop offset="0.0001" stop-color="#FF8F00" />
+                        <stop offset="1" stop-color="#FFCA28" />
+                    </linearGradient>
+                    <linearGradient id="paint17_linear" x1="6.44143" y1="2.51367" x2="5.16943" y2="2.9337"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FF8F00" />
+                        <stop offset="0.0001" stop-color="#FF8F00" />
+                        <stop offset="1" stop-color="#FFCA28" />
+                    </linearGradient>
+                    <linearGradient id="paint18_linear" x1="8.69143" y1="2.51367" x2="7.41943" y2="2.9337"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FF8F00" />
+                        <stop offset="0.0001" stop-color="#FF8F00" />
+                        <stop offset="1" stop-color="#FFCA28" />
+                    </linearGradient>
+                    <linearGradient id="paint19_linear" x1="26.6914" y1="2.51367" x2="25.4194" y2="2.9337"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FF8F00" />
+                        <stop offset="0.0001" stop-color="#FF8F00" />
+                        <stop offset="1" stop-color="#FFCA28" />
+                    </linearGradient>
+                </defs>
+            </svg>
+
+        </div>
+    </div>
+</body>
+
+</html>

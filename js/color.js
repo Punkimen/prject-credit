@@ -167,3 +167,5 @@ arrow.on('click', function () {
         vidjet.removeClass('posVidjet')
     }
 });
+
+
